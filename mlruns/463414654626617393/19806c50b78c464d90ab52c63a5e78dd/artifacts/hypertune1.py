@@ -4,11 +4,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_breast_cancer
 import pandas as pd
 import mlflow
-import dagshub
-
-dagshub.init(repo_owner='abhishekpandy11', repo_name='MLOPS-Experiment-with-MLflow', mlflow=True)
-
-mlflow.set_tracking_uri('https://dagshub.com/abhishekpandy11/MLOPS-Experiment-with-MLflow.mlflow')
 
 # Load the Breast Cancer dataset
 data = load_breast_cancer()
@@ -42,22 +37,23 @@ grid_search = GridSearchCV(estimator=rf, param_grid=param_grid, cv=5, n_jobs=-1,
 # # # Till here
 
 
-
 mlflow.set_experiment('breast-cancer-rf-hp')
 
 with mlflow.start_run() as parent:
     grid_search.fit(X_train, y_train)
-   
-    # log all the child runs
-    for i in range(len(grid_search.cv_results_['params'])):
-
-        with mlflow.start_run(nested=True) as child:
-            mlflow.log_params(grid_search.cv_results_["params"][i])
-            mlflow.log_metric("accuracy", grid_search.cv_results_["mean_test_score"][i])
-
-    # # Displaying the best parameters and the best score
+    # Display the best parameters and the best score
     best_params = grid_search.best_params_
     best_score = grid_search.best_score_
+    # log all the child runs
+    # for i in range(len(grid_search.cv_results_['params'])):
+
+    #     with mlflow.start_run(nested=True) as child:
+    #         mlflow.log_params(grid_search.cv_results_["params"][i])
+    #         mlflow.log_metric("accuracy", grid_search.cv_results_["mean_test_score"][i])
+
+    # # Displaying the best parameters and the best score
+    # best_params = grid_search.best_params_
+    # best_score = grid_search.best_score_
 
     # Log params
     mlflow.log_params(best_params)
@@ -83,7 +79,7 @@ with mlflow.start_run() as parent:
     mlflow.log_artifact(__file__)
 
     # Log the best model
-    # mlflow.sklearn.log_model(grid_search.best_estimator_, "random_forest")
+    mlflow.sklearn.log_model(grid_search.best_estimator_, "random_forest")
 
     # Set tags
     mlflow.set_tag("author", "Vikash Das")

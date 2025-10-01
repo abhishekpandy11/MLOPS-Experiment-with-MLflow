@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/abhis/OneDrive/Desktop/ML_oops/MLOPS-Experiment-with-MLflow/mlruns/463414654626617393/models/m-0f321a25debb48a0aac617f9cf3a0b4a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.4.0
+model_id: m-0f321a25debb48a0aac617f9cf3a0b4a
+model_size_bytes: 317818
+model_uuid: m-0f321a25debb48a0aac617f9cf3a0b4a
+prompts: null
+run_id: 19806c50b78c464d90ab52c63a5e78dd
+utc_time_created: '2025-10-01 09:27:07.136868'

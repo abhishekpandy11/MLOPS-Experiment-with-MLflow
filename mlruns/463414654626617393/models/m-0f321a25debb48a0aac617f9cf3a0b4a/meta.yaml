@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/abhis/OneDrive/Desktop/ML_oops/MLOPS-Experiment-with-MLflow/mlruns/463414654626617393/models/m-0f321a25debb48a0aac617f9cf3a0b4a/artifacts
+creation_timestamp: 1759310826979
+experiment_id: '463414654626617393'
+last_updated_timestamp: 1759310844440
+model_id: m-0f321a25debb48a0aac617f9cf3a0b4a
+model_type: null
+name: random_forest
+source_run_id: 19806c50b78c464d90ab52c63a5e78dd
+status: 2
+status_message: null
