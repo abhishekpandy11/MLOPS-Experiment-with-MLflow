@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/ea7a4bc4a0154410834546678c82ee37/artifacts
+deleted_time: 1759304391020
+end_time: 1759303704070
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ea7a4bc4a0154410834546678c82ee37
+run_name: resilient-croc-395
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759303703330
+status: 4
+tags: []
+user_id: abhis

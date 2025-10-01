@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/780611834765888754/f8e67f8d00c043dfab42f815313399bf/artifacts
+end_time: 1759304671077
+entry_point_name: ''
+experiment_id: '780611834765888754'
+lifecycle_stage: active
+run_id: f8e67f8d00c043dfab42f815313399bf
+run_name: bemused-hog-161
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759304669941
+status: 3
+tags: []
+user_id: abhis

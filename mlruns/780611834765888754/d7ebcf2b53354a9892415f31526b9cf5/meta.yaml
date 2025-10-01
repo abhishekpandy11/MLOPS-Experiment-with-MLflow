@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/780611834765888754/d7ebcf2b53354a9892415f31526b9cf5/artifacts
+end_time: 1759305627883
+entry_point_name: ''
+experiment_id: '780611834765888754'
+lifecycle_stage: active
+run_id: d7ebcf2b53354a9892415f31526b9cf5
+run_name: bold-sponge-292
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759305614912
+status: 3
+tags: []
+user_id: abhis

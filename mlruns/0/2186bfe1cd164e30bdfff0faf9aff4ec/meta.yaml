@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/2186bfe1cd164e30bdfff0faf9aff4ec/artifacts
+end_time: 1759302865344
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2186bfe1cd164e30bdfff0faf9aff4ec
+run_name: clean-cod-362
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759302865129
+status: 3
+tags: []
+user_id: abhis

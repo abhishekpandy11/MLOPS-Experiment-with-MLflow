@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/a493d376ce1147258077a87aa326a51a/artifacts
+end_time: 1759304527756
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a493d376ce1147258077a87aa326a51a
+run_name: bouncy-hound-592
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759304526453
+status: 3
+tags: []
+user_id: abhis

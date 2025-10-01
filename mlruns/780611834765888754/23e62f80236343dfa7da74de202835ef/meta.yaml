@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/780611834765888754/23e62f80236343dfa7da74de202835ef/artifacts
+end_time: 1759305293893
+entry_point_name: ''
+experiment_id: '780611834765888754'
+lifecycle_stage: active
+run_id: 23e62f80236343dfa7da74de202835ef
+run_name: invincible-sow-222
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759305292753
+status: 4
+tags: []
+user_id: abhis

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/a514fd71699e4957aeaa8dc67b922235/artifacts
+end_time: 1759304169810
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a514fd71699e4957aeaa8dc67b922235
+run_name: polite-duck-934
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759304168648
+status: 3
+tags: []
+user_id: abhis
